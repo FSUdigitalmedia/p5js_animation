@@ -8,7 +8,6 @@ function setup() {
 function draw() {
   background(125);
 
-  y += speed;
   ellipse(width/2, y, 50);
 
   y += speed;
